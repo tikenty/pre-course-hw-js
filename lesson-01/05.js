@@ -15,19 +15,16 @@ let rule = "Еще не родился тот человек, который п�
 
 function ruleLength(rule) {
     switch (true) {
-        case rule.length < 25:
+        case rule.length < 25: {
             return "Все таки нет правил без исключения";
-        case rule.length > 25:
+        }
+        case rule.length > 25: {
             return "У меня 100 пудов все получится";
-        default:
+        }
+        default: {
             return "50 на 50";
+        }
     }
 }
 
-function launchRuleLength(rule) {
-    console.log(ruleLength(rule));
-    console.log(ruleLength("Еще не"));
-    console.log(ruleLength("Еще не родился тот челове"));``
-}
-
-launchRuleLength(rule)
+console.log(ruleLength(rule))
