@@ -4,4 +4,4 @@ if (result === 0) {
     console.log(number1, 'Это четное число')
 } else {
     console.log(number1, 'Это нечетное число')
-}// code
+}
