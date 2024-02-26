@@ -1,4 +1,4 @@
-const doArrow = (value) => {
+doArrow = (value) => {
     console.log(value);
 }
 
