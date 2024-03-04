@@ -31,7 +31,9 @@ const users3 = [
     },
 ];
 
-console.log(users3.map(user => ({
+users3IsMarried = users3.map(user => ({
     ...user,
     isMarried: true,
-})));
+}));
+console.log(users3IsMarried);
+
