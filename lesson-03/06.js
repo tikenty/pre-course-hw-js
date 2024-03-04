@@ -33,5 +33,5 @@ const users3 = [
 
 console.log(users3.map(user => ({
     ...user,
-    married: true,
+    isMarried: true,
 })));
